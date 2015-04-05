@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="br.dorga.mantuan.trabalhobruno.LoginActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usuario"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+
+        >
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/senha"
+        android:inputType="textPassword"
+
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_action_accept"
+        android:onClick="logar"
+        />
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Dorga/Documents/BrigaderiaApp/trabalhoBruno/app/src/main/res/layout/activity_login.xml -->

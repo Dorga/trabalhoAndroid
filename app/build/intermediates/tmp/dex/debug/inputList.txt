@@ -1,0 +1,5 @@
+C:\Users\Dorga\Documents\BrigaderiaApp\trabalhoBruno\app\build\intermediates\classes\debug
+C:\Users\Dorga\Documents\BrigaderiaApp\trabalhoBruno\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d9623e7fc4ef387790fb044af85c6768d81acee3.jar
+C:\Users\Dorga\Documents\BrigaderiaApp\trabalhoBruno\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-32af883e863dcf5115d9f28de73f6cc13abeddc5.jar
+C:\Users\Dorga\Documents\BrigaderiaApp\trabalhoBruno\app\build\intermediates\pre-dexed\debug\classes-1eda46aeae25609d564d028147902c81db3f66ec.jar
+C:\Users\Dorga\Documents\BrigaderiaApp\trabalhoBruno\app\build\intermediates\pre-dexed\debug\classes-32c6f524fdd29eda081d7909163eee2c8836910e.jar

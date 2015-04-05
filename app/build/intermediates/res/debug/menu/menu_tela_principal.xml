@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.dorga.mantuan.trabalhobruno.TelaPrincipalActivity">
+
+    <item android:id="@+id/cadTpPagamentos" android:title="@string/TipoPagamentos"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/cadDispesas" android:title="@string/Dispesas"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/exit" android:title="Deslogar"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
+<!-- From: file:/C:/Users/Dorga/Documents/BrigaderiaApp/trabalhoBruno/app/src/main/res/menu/menu_tela_principal.xml -->

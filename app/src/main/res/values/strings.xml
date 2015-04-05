@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">trabalhoBruno</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="TB_USER"></string>
+    <string name="TB_PGTO">CREATE TABLE tp_pagamento (_id INTEGER PRIMARY KEY AUTOINCREMENT, modo_pagamento TEXT);</string>
+    <string name="TB_DISPESA">CREATE TABLE dispesa
+        (_id INTEGER PRIMARY KEY AUTOINCREMENT, descricao TEXT, valor DOUBLE, data DATE, usuario_id INTEGER, pagamento_id INTEGER,
+        FOREIGN KEY(usuario_id) REFERENCES USUARIO(_id),
+        FOREIGN KEY(pagamento_id) REFERENCES TP_PAGAMENTO(_id));</string>
+    <string name="title_activity_login">Logar no Sistema</string>
+    <string name="cad">Cadastrar Usuario</string>
+    <string name="title_activity_cad_usuario">cadUsuario</string>
+    <string name="sucesso_cadastro">Registro Cadastrado com Sucesso!</string>
+    <string name="erro_cadastro">Erro no Cadastro!</string>
+    <string name="registro_duplicado">Registro já cadastrado no sistema!</string>
+    <string name="TipoPagamentos">Cadastrar TP Pagamentos</string>
+    <string name="Dispesas">Cadastrar Dispesas</string>
+    <string name="title_activity_tela_principal">Dispesas</string>
+    <string name="title_activity_cad_dispesas">Cadastrar Dispesas</string>
+    <string name="title_activity_cad_tp_pagamento">Tipo Pagamento</string>
+    <string name="modo">Modo Pagamento</string>
+    <string name="erro_nome">Insira um Nome Válido!</string>
+    <string name="erro_senha">Insira uma senha válida!</string>
+    <string name="erro_email">Insira um email válido!</string>
+    <string name="sucesso_alteracao">Registro Alterado com Sucesso!</string>
+    <string name="erro_alteracao">Erro na Alteração@</string>
+
+</resources>
